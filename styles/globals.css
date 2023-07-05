@@ -9,6 +9,14 @@ body, * {
   box-sizing: border-box;
 
 }
+html {
+  min-height: 100%;
+  margin: 0;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+}
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -456,6 +464,7 @@ padding: 30px 65px;
 .product-detail-image{
   border-radius: 15px;
    background-color: #ebebeb;
+   object-fit: contain;
 
   width: 400px;
   height: 400px;
@@ -477,6 +486,7 @@ padding: 30px 65px;
   width: 70px;
   height: 70px;
   cursor: pointer;
+  object-fit: contain;
 }
 
 .selected-image{
