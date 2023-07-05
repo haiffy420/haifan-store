@@ -847,7 +847,7 @@ margin-top: 160px;
 }
 @media screen and (max-width:400px) {
   .cart-container{
-    width: 250px;
+    width: 320px;
   }
   .btn {
     font-size: 12px;
