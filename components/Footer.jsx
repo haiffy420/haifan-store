@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <p>2023 Haifan Shop. All Rights Reserved.</p>
+      <p>2023 Haifan Store. All Rights Reserved.</p>
       <p className='icons'>
         <Link href='https://www.instagram.com/haifan_420/'>
           <AiFillInstagram />
