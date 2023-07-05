@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-
 html,
 body, * {
   padding: 0;
@@ -281,7 +279,7 @@ text-align: end;
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  top: -25%;
+  top: -20%;
   left: 25%;
   object-fit: contain;
 }
@@ -665,10 +663,10 @@ margin-top: 160px;
       
   }
   .hero-banner-image{
-    width: 67%;
-    height: 52%;
-    top: 20%;
-    right: 15%;
+    width: 76%;
+    height: 40%;
+    top: 30%;
+    right: 10%;
   }
   .footer-banner-container{
     padding-top: 20px;
@@ -738,7 +736,7 @@ margin-top: 160px;
     height: 350px;
   }
   .cart-container{
-    width: 415px;
+    width: 400px;
   padding: 4px;
   }
   .cart-heading{
@@ -817,21 +815,51 @@ margin-top: 160px;
 }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:572px) {
   .footer-banner-image{
-    width: 67%;
+    width: 55%;
     left: 40%;
     top: 6%;
-    height: 52%;
+    height: 40%;
   }
   .banner-desc {
     margin-top: auto;
   }
   .banner-desc .right {
     margin-top: 50px;
+  }
 }
+@media screen and (max-width:420px) {
+  .footer-banner-container {
+    height: 600px;
+  }
+  
+  .footer-banner-image{
+    width: 60%;
+    left: 25%;
+    top: 24%;
+    height: 45%;
+  }
+  .banner-desc .right {
+    margin-top: 120px;
+  }
+  
 }
-
+@media screen and (max-width:400px) {
+  .cart-container{
+    width: 250px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  .cart-heading {
+    font-size: 14px;
+    padding-left: 0px;
+  }
+  div.empty-cart h3 {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width:365px) {
 .logo p {
   display: none;
