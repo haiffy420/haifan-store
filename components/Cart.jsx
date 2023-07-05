@@ -33,6 +33,10 @@ const Cart = () => {
     stripe.redirectToCheckout({ sessionId: data.id });
   }
 
+  const upcomingFeatures = () => {
+    toast.error('This feature is still in development...');
+  }
+
   return (
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
@@ -101,6 +105,9 @@ const Cart = () => {
             <div className="btn-container">
               <button type="button" className="btn" onClick={handleCheckout}>
                 Pay with Stripe
+              </button>
+              <button type="button" className="btn" onClick={upcomingFeatures}>
+                Pay with QRIS
               </button>
             </div>
           </div>
