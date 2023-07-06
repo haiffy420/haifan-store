@@ -849,6 +849,10 @@ margin-top: 160px;
   .cart-container{
     width: 320px;
   }
+  .btn-container{
+  width: 200px;
+  margin: auto;
+}
   .btn {
     font-size: 12px;
   }
